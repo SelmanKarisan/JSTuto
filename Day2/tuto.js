@@ -57,3 +57,32 @@ console.log(challenge)
 challenge = "30 Days Of JavaScript"
 console.log(challenge.charAt(15))   
 console.log(challenge.charCodeAt("J")) 
+
+console.log(challenge.indexOf('a'))
+
+console.log(challenge.lastIndexOf('a'))
+
+const parag='You cannot end a sentence with because because because is a conjunction';
+
+console.log(parag.indexOf("because"))
+
+console.log(parag.lastIndexOf("because"))
+
+console.log(parag.search("because"))
+
+
+let yazi =  ' 30 Days Of JavaScript '
+console.log(yazi)
+yazi =yazi.trim()
+console.log(yazi)
+
+console.log(yazi.startsWith('3'))
+console.log(yazi.endsWith('t'))
+console.log(yazi.match('a'))
+
+let str1 ='30 Days of'
+let str2 ='JavaScript'
+
+let realstr = str1.concat(str2)
+console.log(realstr);
+console.log(realstr.repeat(2))
