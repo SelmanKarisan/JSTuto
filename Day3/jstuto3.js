@@ -1,24 +1,8 @@
 console.log("Welcome to Day3");
 
 
-// if else usage with ? : 
-
-let isRaining = true
-isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
-isRaining = false
-
-isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
-
-let number = prompt('Enter number', 'number goes here')
-console.log(number)
 
 
-const agree = confirm('Are you sure you like to delete? ')
-console.log(agree) // result will be true or false based on what you click on the dialog box
 
 
 const now = new Date()
@@ -48,3 +32,48 @@ let city="istanbul";
 let age = 20
 let isMarried=false;
 
+
+let firstName2
+console.log(firstName2)
+
+let empty = null
+console.log(empty)
+
+let numOne = 4
+let numTwo = 3
+let sum = numOne + numTwo // toplama
+let diff = numOne - numTwo // çıkarma
+let mult = numOne * numTwo // çarpma
+let div = numOne / numTwo // bölme
+let remainder = numOne % numTwo // kalanı bulma (bölmedeki kalan oluyor bu Biraz matematik :D )
+let powerOf = numOne ** numTwo // buda üstel sayı anlamına geliyor Örnek: 4 Üssü 3 Kaçtır? Biraz matematik 2 :D 
+console.log(sum, diff, mult, div, remainder, powerOf)
+
+
+console.log(undefined == null)  // true
+console.log(undefined === null) // false
+console.log(NaN == NaN)         // false, eşit değil
+console.log(NaN === NaN)        // false
+console.log(typeof NaN)         // number
+
+// if else usage with ? : 
+let isRaining = true
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+isRaining = false
+
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+
+// alert('Welcome to 30DaysOfJavaScript')
+
+/*
+let number = prompt('Enter number', 'number goes here')
+console.log(number)
+
+
+const agree = confirm('Are you sure you like to delete? ')
+console.log(agree) // result will be true or false based on what you click on the dialog box
+*/
